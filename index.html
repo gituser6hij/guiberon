@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiberon Livraison</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+        }
+
+        header {
+            background-color: #ff5c5c;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        section {
+            margin: 20px 0;
+        }
+
+        .menu-section {
+            background-color: #EFEFE9;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .sub-section-tomate {
+            background-color: #BE2D4720;
+            border: 0px solid #000;
+            /* Example border */
+            border-radius: 15px;
+            /* Example border radius */
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        .sub-section-creme {
+            background-color: #efcfa720;
+            border: 0px solid #000;
+            /* Example border */
+            border-radius: 15px;
+            /* Example border radius */
+            padding: 10px;
+
+        }
+
+        .sub-section-sup {
+            background-color: #0e080120;
+            border: 0px solid #000;
+            /* Example border */
+            border-radius: 15px;
+            /* Example border radius */
+            padding: 10px;
+
+        }
+
+        .sub-section-creme h3 {
+            text-align: center;
+        }
+
+        .sub-section-tomate h3 {
+            text-align: center;
+        }
+
+
+        h2 {
+            border-bottom: 2px solid #ff5c5c;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            color: #ff5c5c;
+        }
+
+        .logo-img {
+            text-align: center;
+            display: block;
+            margin: auto;
+        }
+
+        .item {
+            padding: 10px 0;
+            border-bottom: 1px solid #eaeaea;
+        }
+
+        .item:last-child {
+            border-bottom: none;
+        }
+
+        .item-name {
+            font-weight: bold;
+        }
+
+        .item-price {
+            float: right;
+        }
+
+        .item-description {
+            margin-top: 5px;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .item-price {
+                float: none;
+                display: block;
+                margin-top: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Quiberon Livraison</h1>
+            <p>POUR COMMANDER: 06 86 05 97 44</p>
+            <p>Burger & Pizza: 12h - 14h / 19h - 22h du Mardi au Dimanche</p>
+            <p>Sushi: 19h - 22h du Mardi au Dimanche</p>
+            <p>Sans frais de livraison, le montant minimum est de 20 euros</p>
+        </div>
+    </header>
+    <main class="container">
+
+        <img class="logo-img" src="./public/logo-livraison-quiberon.png" alt="logo">
+
+
+        <section class="menu-section">
+            <h2>California (6 pièces)</h2>
+            <img src="./public/maki.png" alt="maki">
+            <div class="item">
+                <div class="item-name">California Saumon <span class="item-price">8,00€</span></div>
+                <div class="item-description">Rouleaux de riz vinaigré avec saumon, avocat, concombre</div>
+            </div>
+            <div class="item">
+                <div class="item-name">California Thon <span class="item-price">9,00€</span></div>
+                <div class="item-description">Rouleaux de riz vinaigré avec thon, avocat, concombre</div>
+            </div>
+            <div class="item">
+                <div class="item-name">California Surimi <span class="item-price">6,00€</span></div>
+                <div class="item-description">Rouleaux de riz vinaigré avec surimi, avocat, concombre</div>
+            </div>
+            <div class="item">
+                <div class="item-name">California Veggie <span class="item-price">6,00€</span></div>
+                <div class="item-description">Rouleaux de riz vinaigré avec légumes croquants</div>
+            </div>
+            <div class="item">
+                <div class="item-name">California Chèvre Roquette <span class="item-price">8,00€</span></div>
+                <div class="item-description">Rouleaux de riz vinaigré avec fromage de chèvre et roquette</div>
+            </div>
+            <div class="item">
+                <div class="item-name">California Crevette Tempura <span class="item-price">9,00€</span></div>
+                <div class="item-description">Rouleaux de riz vinaigré avec crevette tempura</div>
+            </div>
+        </section>
+
+        <section class="menu-section">
+            <h2>Maki (6 pièces)</h2>
+            <div class="item">
+                <div class="item-name">Maki Saumon <span class="item-price">5,00€</span></div>
+                <div class="item-description">Rouleaux de riz vinaigré avec saumon</div>
+            </div>
+            <div class="item">
+                <div class="item-name">Maki Thon <span class="item-price">6,00€</span></div>
+                <div class="item-description">Rouleaux de riz vinaigré avec thon</div>
+            </div>
+            <div class="item">
+                <div class="item-name">Maki Avocat <span class="item-price">4,00€</span></div>
+                <div class="item-description">Rouleaux de riz vinaigré avec avocat</div>
+            </div>
+            <div class "item">
+                <div class="item-name">Maki Concombre <span class="item-price">4,00€</span></div>
+                <div class="item-description">Rouleaux de riz vinaigré avec concombre</div>
+            </div>
+        </section>
+
+        <section class="menu-section">
+            <h2>Sushis (2 pièces)</h2>
+            <div class="item">
+                <div class="item-name">Saumon <span class="item-price">5,00€</span></div>
+                <div class="item-description">Deux pièces de sushi au saumon frais</div>
+            </div>
+            <div class="item">
+                <div class="item-name">Thon <span class="item-price">6,00€</span></div>
+                <div class="item-description">Deux pièces de sushi au thon frais</div>
+            </div>
+        </section>
+
+        <section class="menu-section">
+            <h2>Sashimi (6 pièces)</h2>
+            <div class="item">
+                <div class="item-name">Sashimi saumon <span class="item-price">12,00€</span></div>
+            </div>
+            <div class="item">
+                <div class="item-name">Sashimi thon <span class="item-price">12,00€</span></div>
+            </div>
+        </section>
+
+        <section class="menu-section">
+            <h2>Gyoza (6 pièces)</h2>
+            <div class="item">
+                <div class="item-name">Gyoza Crevette <span class="item-price">8,00€</span></div>
+                <div class="item-description">Six pièces de raviolis japonais farcis à la crevette</div>
+            </div>
+            <div class="item">
+                <div class="item-name">Gyoza Légumes <span class="item-price">7,00€</span></div>
+                <div class="item-description">Six pièces de raviolis japonais farcis aux légumes</div>
+            </div>
+        </section>
+
+
+        <section class="menu-section">
+            <h2>Nems (4 pièces)</h2>
+            <div class="item">
+                <div class="item-name">Nems Porc <span class="item-price">6,00€</span></div>
+                <div class="item-description">Quatre pièces de nems farcis au porc</div>
+            </div>
+            <div class="item">
+                <div class="item-name">Nems Légumes <span class="item-price">6,00€</span></div>
+                <div class="item-description">Quatre pièces de nems farcis aux légumes</div>
+            </div>
+        </section>
+
+        <section class="menu-section">
+            <h2>Samoussa (2 pièces)</h2>
+            <div class="item">
+                <div class="item-name">Samoussa Poulet <span class="item-price">6,00€</span></div>
+            </div>
+            <div class="item">
+                <div class="item-name">Samoussa Légumes <span class="item-price">6,00€</span></div>
+            </div>
+        </section>
+
+        <section class="menu-section">
+            <h2>Accompagnement</h2>
+            <div class="item">
+                <div class="item-name">Salade Wakamé<span class="item-price">6,00€</span></div>
+            </div>
+            <div class="item">
+                <div class="item-name">Bol de Riz<span class="item-price">6,00€</span></div>
+            </div>
+        </section>
+
+        <section class="menu-section">
+
+            <h2>Poke Bowl</h2>
+            <div class="item">
+                <div class="item-name">Saumon <span class="item-price">8,00€</span></div>
+                <div class="item-description">Saumon frais, riz vinaigré, légumes croquants, sauce soja</div>
+            </div>
+            <div class="item">
+                <div class="item-name">Thon <span class="item-price">9,00€</span></div>
+                <div class="item-description">Thon frais, riz vinaigré, légumes croquants, sauce soja</div>
+            </div>
+            <div class="item">
+                <div class="item-name">Super Bowl <span class="item-price">7,50€</span></div>
+                <div class="item-description">Mélange de légumes frais, riz vinaigré, tofu, sauce spéciale</div>
+            </div>
+            <div class="item">
+                <div class="item-name">Master Bowl <span class="item-price">9,50€</span></div>
+                <div class="item-description">Saumon, thon, riz vinaigré, légumes croquants, sauce soja</div>
+            </div>
+            <div class="item">
+                <div class="item-name">Veggie Bowl <span class="item-price">7,50€</span></div>
+                <div class="item-description">Riz vinaigré, légumes croquants, avocat, tofu, sauce soja</div>
+            </div>
+        </section>
+
+        <section class="menu-section">
+            <h2>Pizza</h2>
+            <div class="sub-section-tomate">
+                <h3>Base Tomate</h3>
+                <div class="item">
+                    <div class="item-name">Margarita <span class="item-price">11,00€</span></div>
+                    <div class="item-description">Tomate, Mozzarella, Olives</div>
+                </div>
+                <div class="item">
+                    <div class="item-name">Regina <span class="item-price">13,00€</span></div>
+                    <div class="item-description">Tomate, Mozarella, Jambon</div>
+                </div>
+                <div class="item">
+                    <div class="item-name">Reine <span class="item-price">14,00€</span></div>
+                    <div class="item-description">Tomate, Mozzarella, Jambon, Champignons</div>
+                </div>
+                <div class="item">
+                    <div class="item-name">Royale <span class="item-price">15,00€</span></div>
+                    <div class="item-description">Tomate, Mozarella, Jambon, Oeuf, Champignons</div>
+                </div>
+                <div class="item">
+                    <div class="item-name">4 Fromages <span class="item-price">15,00€</span></div>
+                    <div class="item-description">Tomate, Mozzarella, Chèvre, Roquefort, Raclette</div>
+                </div>
+                <div class="item">
+                    <div class="item-name">Végétarienne <span class="item-price">14,00€</span></div>
+                    <div class="item-description">Tomate, Mozzarella, Champignons, Oignons, Poivrons, Persillade, Olives
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-name">Andalouse <span class="item-price">14,00€</span></div>
+                    <div class="item-description">Tomate, Mozzarella, Chorizo, Poivron, Oignons</div>
+                </div>
+                <div class="item">
+                    <div class="item-name">El Diablo <span class="item-price">15,50€</span></div>
+                    <div class="item-description">Poulet épicé, Mozzarella, Poivrons, Oignons, Piments</div>
+                </div>
+                <div class="item">
+                    <div class="item-name">Special <span class="item-price">13,50€</span></div>
+                    <div class="item-description">Tomate, Mozzarella, Chèvre, Chorizo, Persillade</div>
+                </div>
+            </div>
+            <div class="sub-section-creme">
+                <h3>Base Blanche</h3>
+                <div class="item">
+                    <div class="item-name">Chèvre Miel <span class="item-price">14,00€</span></div>
+                    <div class="item-description">Crème, Mozzarella, Chèvre, Miel, Thym</div>
+                </div>
+                <div class="item">
+                    <div class="item-name">Savoyarde <span class="item-price">15,00€</span></div>
+                    <div class="item-description">Crème, Mozzarella, Pomme de terre, Lardons, Oignons, Raclette</div>
+                </div>
+            </div>
+
+            <div class="sub-section-sup">
+                <h3>Les suppléments</h3>
+                <div class="item-description">Jambon, Chorizo, Lardons, Oignons, Oeuf, Pomme de terre, Poivrons,
+                    Champignons, Roquefort, Chèvre, Miel, Raclette, Poulet épicé <span class="item-price">2,00€</span>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <section class="menu-section">
+            <h2>Menus Burgers</h2>
+            <div class="item">
+                <div class="item-name">Le Cheese <span class="item-price">8,00€</span></div>
+                <div class="item-description">Burger classique avec fromage, salade, tomate, sauce</div>
+            </div>
+            <div class="item">
+                <div class="item-name">Le Classic <span class="item-price">7,00€</span></div>
+                <div class="item-description">Burger classique avec salade, tomate, sauce</div>
+            </div>
+            <div class="item">
+                <div class="item-name">Le Big <span class="item-price">9,00€</span></div>
+                <div class="item-description">Grand burger avec double viande, fromage, salade, tomate, sauce</div>
+            </div>
+            <div class="item">
+                <div class="item-name">Le Chèvre <span class="item-price">8,50€</span></div>
+                <div class="item-description">Burger avec fromage de chèvre, salade, tomate, sauce</div>
+            </div>
+            <div class="item">
+                <div class="item-name">Le Végétarien <span class="item-price">7,50€</span></div>
+                <div class="item-description">Burger végétarien avec galette de légumes, salade, tomate, sauce</div>
+            </div>
+        </section>
+
+        <section class="menu-section">
+            <h2>Accompagnements Burgers</h2>
+            <div class="item">
+                <div class="item-name">Frites <span class="item-price">3,50€</span></div>
+                <div class="item-description">Portion de frites croustillantes</div>
+            </div>
+            <div class="item">
+                <div class="item-name">Salade <span class="item-price">3,00€</span></div>
+                <div class="item-description">Salade verte avec vinaigrette</div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
